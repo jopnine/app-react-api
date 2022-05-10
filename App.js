@@ -3,6 +3,7 @@ import { StyleSheet, Text, View,StatusBar,SafeAreaView } from 'react-native';
 
 import CurrentPrice from "./src/components/CurrentPrice";
 import HistoryGraphic from "./src/components/HistoryGraphic";
+import QuotationList from "./src/components/QuotationsList";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       />
       <CurrentPrice/>
       <HistoryGraphic/>
+      <QuotationList/>
     </View>
   );
 }
